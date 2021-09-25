@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TrueStudy/Courses</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans"
+      rel="stylesheet"
+    />
+    <link href="static/styles.css" rel="stylesheet" />
+    <style>
+      a:hover {
+        opacity: 0.8;
+      }
+      fieldset {
+        background-color: #fff;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 25px;
+      }
+      legend {
+        background-color: #fff;
+        border-radius: 10%;
+        border: 2px solid blue;
+      }
+      .course-container {
+        align-items: center;
+        display: inline-block;
+        object-fit: contain;
+        justify-content: space-between;
+      }
+      .course {
+        width: 150px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px;
+        padding-top: 15px;
+        text-align: center;
+      }
+      .course:hover {
+        background-color: Green;
+        color: #fff;
+        border: 1px solid #000;
+      }
+      .btn {
+        width: 50px;
+        margin-left: 55px;
+        text-align: center;
+        border-radius: 10%;
+        background-color: red;
+        color: #fff;
+      }
+      .btn:hover {
+        background-color: white;
+        color: #f00;
+        border: 1px solid black;
+      }
+      #unique {
+        text-align: center;
+        align-items: center;
+        padding-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="leftheader">
+          <a href="/"
+            ><img
+              src="https://media.istockphoto.com/photos/international-globe-and-book-icon-picture-id175448793?k=20&m=175448793&s=612x612&w=0&h=RSv0EXJSOQmA3fwOv5RfPOjhUyWRJr6gKTW-VaW6DsY="
+              alt="True Study. Click for home. "
+              style="border-radius: 40%"
+              height="175px"
+          /></a>
+        </div>
+        <div class="rightheader">
+          <h1>True Study</h1>
+          <p>The real study materials</p>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/products">Courses</a></li>
+          <li><a href="/cart">Documentation</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <article>
+          <ul style="list-style-type: none">
+            <li>
+              <a href="#cs"
+                ><img
+                  src="https://media.istockphoto.com/photos/machine-learning-hands-of-robot-and-human-touching-on-big-data-picture-id1206796363?k=20&m=1206796363&s=612x612&w=0&h=IapYt1UYr9kJGX7gunSjksvAGiiqF6DzB0GVo-BgLeE="
+                  alt="Computer Science"
+                  height="250px"
+                  width="350px"
+                  title="Computer Science"
+              /></a>
+            </li>
+            <li>
+              <a href="#eh"
+                ><img
+                  src="https://media.istockphoto.com/photos/ethical-hacking-data-breach-tracking-3d-illustration-picture-id1043123678?k=20&m=1043123678&s=612x612&w=0&h=Xfptf86wn1m4oRvCmfhi9U9kRldXl8Rd1opO1OYPano="
+                  alt="Ethical Hacking"
+                  height="250px"
+                  width="350px"
+                  title="Ethical Hacking"
+              /></a>
+            </li>
+            <li>
+              <a href="#ml"
+                ><img
+                  src="https://cdn.pixabay.com/photo/2017/09/08/19/05/a-2729781__340.png"
+                  alt="Machine Learning"
+                  height="250px"
+                  width="350px"
+                  title="Machine Learning"
+              /></a>
+            </li>
+            <li>
+              <a href="#pm"
+                ><img
+                  src="https://media.istockphoto.com/photos/developing-programmer-development-website-design-and-coding-working-picture-id1160539639?k=20&m=1160539639&s=612x612&w=0&h=pT9nfksCTW1tNnIdSxhO9TJwN8s796fB23lnSIXa3Gw="
+                  alt="Programming"
+                  height="250px"
+                  width="350px"
+                  title="Programming"
+              /></a>
+            </li>
+            <li>
+              <a href="#rb"
+                ><img
+                  src="https://media.istockphoto.com/photos/robot-working-with-digital-display-picture-id686690190?k=20&m=686690190&s=612x612&w=0&h=WKv8yZfh_AF9L1my63vuQntxv3jNPUk2Oqw9mNhEcPc="
+                  alt="Premium Courses"
+                  height="250px"
+                  width="350px"
+                  title="Premium Courses"
+              /></a>
+            </li>
+            <li>
+              <a href="#wd"
+                ><img
+                  src="https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927__340.jpg"
+                  alt="Web Design"
+                  height="250px"
+                  width="350px"
+                  title="Web Design"
+              /></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+
+      <!-- <div style="border-bottom: 4px solid crimson"></div> -->
+
+
+      <section id="cs">
+        <fieldset>
+          <legend>Computer Science</legend>
+          <a href="https://edx.org/" target="_blank">
+            <div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Introduction to Computer Science</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div>
+          </a>
+
+          <a href="https://edx.org/" target="_blank">
+          <div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Diploma in Computer Science</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div>
+          </a>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Computer Science Master Program</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Advance Computer Science</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <section id="eh">
+        <fieldset>
+          <legend>Ethical Hacking</legend>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">CISSP</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">LPT</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">OSCP</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"> <div class="course-container">
+            <div class="course" id="course"><p id="unique">CEH</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <section id="ml">
+        <fieldset>
+          <legend>Machine Learning</legend>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Machine Learning</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Diploma in Machine Learning</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"> <div class="course-container">
+            <div class="course" id="course"><p id="unique">Algorithm</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Data Science</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <section id="pm">
+        <fieldset>
+          <legend>Programming</legend>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">Python</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">JavaScript</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">Java</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">C++</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <section id="rb">
+        <fieldset>
+          <legend>Premium Courses</legend>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">Robotics</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">Artificial intelligence</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">Biometrics</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course">
+              <p id="unique">System Development</p>
+            </div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <section id="wd">
+        <fieldset>
+          <legend>Web Design</legend>
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">HTML</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">CSS</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">Bootstrap</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+
+          <a href="https://edx.org/" target="_blank"><div class="course-container">
+            <div class="course" id="course"><p id="unique">React</p></div>
+            <button class="btn" id="btn">Enroll</button>
+          </div></a>
+
+        </fieldset>
+      </section>
+
+
+      <footer>
+        <p>&copy; Copyright reserved 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TrueStudy/Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans"
+      rel="stylesheet"
+    />
+    <link href="static/styles.css" rel="stylesheet" />
+    <style>
+      .content {
+	      width: 80%;
+        margin: 10px auto;
+      	padding: 1em;
+      	background-color: rgba(220, 20, 60, 0.5);
+      	display: flex;
+      	flex-flow: row nowrap;
+      	border-radius: 10px;
+      }
+      #section {
+      	flex-basis: 57%;
+      	margin-right: 10%;
+      }
+      aside {
+        	flex-basis: 33%;
+      }
+      p, [for="abtype"] {
+      	margin-bottom: 0;
+      	margin-top: 2rem;
+      }
+      fieldset, #abtype {
+      	margin-bottom: 2rem;
+      }
+      fieldset {
+      	border: 1px solid black;
+      	border-radius: 10px;
+      }
+      legend {
+      	font-weight: bold;
+      	font-size: 1.3rem;
+      	margin-top: 1.5rem;
+      	margin-bottom: 1rem;
+      	display: block;
+      }
+      label {
+      	display: block;
+      }
+      input:not([type="radio"]):not([type="checkbox"]),
+      textarea {
+      	display: block;
+      	margin-bottom: 2rem;
+      	width: 20rem;
+      	font-family: Arial, Helvetica, sans-serif;
+      	font-size: 1em;
+      	border-radius: 10px;
+      	padding: 0 1rem;
+      }
+      textarea {
+      	height: 10rem;
+      	padding: 1rem;
+      }
+      select {
+      	font-size: 1rem;
+      }
+      button {
+      	margin: 2rem 0;
+      	background-color: #BB342F;
+      	color: white;
+      	border: none;
+      	font-size: 1rem;
+      	padding: 0.5rem 1rem;
+      	border-radius: 10px;
+      }
+      button:hover {
+      	background-color: #9A2B27;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="leftheader">
+          <a href="/"
+            ><img
+              src="https://media.istockphoto.com/photos/international-globe-and-book-icon-picture-id175448793?k=20&m=175448793&s=612x612&w=0&h=RSv0EXJSOQmA3fwOv5RfPOjhUyWRJr6gKTW-VaW6DsY="
+              alt="True Study. Click for home. "
+              style="border-radius: 40%"
+              height="175px"
+          /></a>
+        </div>
+        <div class="rightheader">
+          <h1>True Study</h1>
+          <p>The real study materials</p>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/products">Courses</a></li>
+          <li><a href="/cart">Documentation</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="content">
+		<section id="section">
+			<h1>TrueStudy Contact Form</h1>
+			<p>Fill out the form below to contact the TrueStudy staffs.</p>
+			<form method="POST" action="/" name="form" onsubmit="return validateForm()">
+				<fieldset>
+					<legend>Your contact information</legend>
+					<label for="name">Your name </label>
+					<input type="text" id="name" name="name" autocomplete="off" autofocus>
+					<label for="phone">Phone number</label>
+					<input type="tel" id="phone" name="phone" autocomplete="off" placeholder="Don't forget the area code!">
+					<label for="email">Email</label>
+					<input type="email" id="email" autocomplete="off" name="email">
+
+				</fieldset>
+					<label for="comments">Special requests:</label>
+					<textarea id="comments" name="comments"></textarea>
+
+					<label>
+						<input id="subscribe" name="subscribe" type="checkbox" value="subscribe">Add me to your email list
+					</label>
+					<input id="send_to" type="hidden" name="send_to" value="yourEmailHere">
+					<button type="submit">Submit</button>
+				</fieldset>
+			</form>
+
+		</section>
+	</div>
+      </section>
+      <footer>
+        <p>&copy; Copyright reserved 2021</p>
+      </footer>
+    </div>
+    <script>
+        function validateForm() {
+          let name = document.forms["form"]["name"].value;
+          let phone = document.forms["form"]["phone"].value;
+          let email = document.forms["form"]["email"].value;
+          if (name == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+          if (phone == "") {
+            alert("Must provide phone number");
+            return false;
+          }
+          if (email == "") {
+            alert("Email can not be empty");
+            return false;
+          }
+          else {
+            alert("Your request has been submitted successfully");
+          }
+        }
+    </script>
+  </body>
+</html>

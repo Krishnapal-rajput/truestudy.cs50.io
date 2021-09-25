@@ -1,0 +1,10 @@
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
+PYTHON
+SQL
+
+
+
+Basic overview: This is gonna be a study material app, which will provide real, easy and free study material for learning aspirants. And from the famous universities and institutions.
