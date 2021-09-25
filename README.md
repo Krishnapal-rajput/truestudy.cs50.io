@@ -21,8 +21,14 @@
     <section>
       <h2>Home page</h2>
       <p>This is how the homepage of the webapp look like</p>
-      <img src="./index.png" alt="index" />
-      <img src="./index1.png" alt="index" />
+      <img
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/index.png?raw=true"
+        alt="index"
+      />
+      <img
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/index1.png?raw=true"
+        alt="index"
+      />
       <p>It also have the several key contents.</p>
       <p>
         <li>
@@ -44,10 +50,16 @@
           device width.
         </li>
       </p>
-      <img src="./home.png" alt="home" />
+      <img
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/home.png?raw=true"
+        alt="home"
+      />
       <h3>About the section of webapp</h3>
       <p>This is how the section look like:</p>
-      <img src="./section.png" alt="section" />
+      <img
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/section.png?raw=true"
+        alt="section"
+      />
       <h4>Key contents</h4>
       <p><li>Left side is the picture or icon of the particular course</li></p>
       <p>
@@ -62,5 +74,6 @@
       </p>
     </section>
   </body>
-</html>
+
+
 
