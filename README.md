@@ -1,5 +1,6 @@
+# TrueStudy
+#### Video Demo: https://youtu.be/kR3-s9Sq0jk
   <body>
-    # truestudy.cs50.io
     <h1>TrueStudy</h1>
     <p>
       The final project of cs50: Introduction to computer science by Harvard
