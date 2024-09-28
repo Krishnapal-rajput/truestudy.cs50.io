@@ -27,7 +27,7 @@
         alt="index"
       />
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/index1.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/index1.png"
         alt="index"
       />
       <p>It also have the several key contents.</p>
@@ -52,13 +52,13 @@
         </li>
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/home.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/home.png?raw=true"
         alt="home"
       />
       <h3>About the section of webapp</h3>
       <p>This is how the section look like:</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/section.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/section.png?raw=true"
         alt="section"
       />
       <h4>Key contents</h4>
@@ -78,7 +78,7 @@
       <h2>Courses Page</h2>
       <p>Lets have a look at courses page:</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/courses.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/courses.png?raw=true"
         alt="courses"
       />
       <p>This webapp have a good courses section</p>
@@ -102,12 +102,12 @@
       </p>
       <p>For more info see the picture below:</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/cs.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/cs.png?raw=true"
         alt="cs"
       />
       <p>And when user hover on it they will also get some effect</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/cs-hover.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/cs-hover.png?raw=true"
         alt="hover"
       />
       <p>
@@ -116,7 +116,7 @@
         choice
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/edx.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/edx.png?raw=true"
         alt="edx"
       />
     </section>
@@ -133,7 +133,7 @@
         webapp.
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/docs.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/docs.png?raw=true"
         alt="docs"
       />
     </section>
@@ -143,7 +143,7 @@
         This is our about page, it is simple page that shows we are TrueStudy.
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/about.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/about.png?raw=true"
         alt="about"
       />
     </section>
@@ -152,12 +152,12 @@
       <p>A very special section of this webapp</p>
       <p>Lets take a look and then read it's functionality</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/contact.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/contact.png?raw=true"
         alt="contact"
       />
       <h3>This is how the contact form look like</h3>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/form.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/form.png?raw=true"
         alt="form"
       />
       <h4>Validation is the main focus of this part</h4>
@@ -168,7 +168,7 @@
         </li>
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/empty.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/empty.png?raw=true"
         alt="empty"
       />
       <p>
@@ -179,7 +179,7 @@
       </p>
       <p><li>We have also added the email validation script as well.</li></p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/email.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/email.png?raw=true"
         alt="email"
       />
       <p>
@@ -190,11 +190,11 @@
         </li>
       </p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/submit.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/submit.png?raw=true"
         alt="submit"
       />
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/onsubmit.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/onsubmit.png?raw=true"
         alt="onsubmit"
       />
     </section>
