@@ -23,7 +23,7 @@
       <h2>Home page</h2>
       <p>This is how the homepage of the webapp look like</p>
       <img
-        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/images/index.png?raw=true"
+        src="https://github.com/Krishnapal-rajput/truestudy.cs50.io/blob/main/finalproject/images/index.png"
         alt="index"
       />
       <img
